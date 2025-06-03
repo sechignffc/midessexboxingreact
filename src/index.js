@@ -5,8 +5,10 @@ import App from "./App";
 import "./style.css";
 import reportWebVitals from "./reportWebVitals";
 
+const repoName = "/midessexboxingreact";
+
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <Router>
+  <Router basename={repoName}>
     <App />
   </Router>
 );
