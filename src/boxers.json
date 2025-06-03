@@ -6,7 +6,7 @@
         "year" : 2012,
         "images" : ["1000.jpg","1500.jpg","2600.jpg","5000.jpg","5500.jpg","6500.jpg","6600.jpg"],
         "achievements" : ["Home Counties Box Cup Finalist","Eastern Counties Finalist"],
-        "bio": "An all-action pressure fighter, Luca rarely takes a backward step. All his shots are powerful, with the left-hook being his signature punch. However, Luca's boxing skills have improved dramatically during his time at Mid Essex. One to watch."
+        "bio": "Luca is an unrelenting pressure fighter who keeps opponents on the back foot, rarely retreating under fire. Every punch he throws carries formidable power, with his devastating left hook standing out as his trademark weapon. Over his time at Mid Essex, Luca has honed his boxing technique significantly, blending raw aggression with finely tuned skills. A dynamic and evolving talent—definitely one to watch."
     },
     {
         "name" : "Kenny Sturt",
@@ -15,61 +15,61 @@
         "year" : 2002,
         "images" : ["1400.jpg"],
         "achievements" : [],
-        "bio": "A pressure fighter with a relentless style. But don't be fooled, Kenny also has an array of boxing skills at his disposal. Improving with every fight, Kenny is willing to fight on any show to get the experience. One of the hardest trainers at Mid Essex, usually the last one to leave."
+        "bio": "Kenny is a relentless pressure fighter who keeps the intensity high from the opening bell. Yet beneath his aggressive style lies a versatile skill set that continues to grow with every bout. Eager to gain experience, he readily steps up to fight on any card. Known as one of the toughest trainers at Mid Essex, Kenny's work ethic is unmatched—often the last to leave the gym. A dedicated and rising talent to keep an eye on."
     },
     {
         "name" : "Tommy Pemberton",
         "nickname" : "Pembo Junior",
         "fights" : 8,
         "year" : 2013,
-        "images" : ["8500.jpg"],
+        "images" : ["8500.jpg","3000.jpg","3300.jpg","7200.jpg","7400.jpg","8000.jpg"],
         "achievements" : ["Schools National Semi-Finalist", "Eastern Counties Champion"],
-        "bio": "A slick stick and boxer, who relies on his superb reflexes for his defence."
+        "bio": "Tommy is a slick and skillful boxer, known for his sharp stick-and-move style inside the ring. Relying heavily on his superb reflexes and quick footwork, he expertly evades punches while setting up precise counters. His defensive instincts complement his technical ability, allowing him to control the pace and outsmart opponents. As he continues to develop at Mid Essex, Tommy's blend of finesse and tactical intelligence makes him an exciting talent to watch."
     },
     {
         "name" : "Radley Brown",
         "nickname" : "Bomber",
         "fights" : 0,
         "year" : 2006,
-        "images" : ["2900.jpg"],
+        "images" : ["2900.jpg","1600.jpg","2200.jpg","7900.jpg"],
         "achievements" : [],
-        "bio": "An adept boxer, equally at home on the inside or at range, Radley possesses a devastating straight right, which has given out a number of 8 counts."
+        "bio": "Radley is a highly adept boxer, comfortable both on the inside and at range. Known for his versatility, he seamlessly adapts his style to exploit his opponent's weaknesses. Combining technical skill with a fierce, aggressive approach, Radley's devastating straight right has rattled many opponents and earned him several 8 counts. His relentless pressure and power make him a formidable presence in the ring, and a fighter who's always ready to take the fight to his adversaries."
     },
     {
         "name" : "Ron Norman",
         "nickname" : "Ronnie",
         "fights" : 0,
-        "year" : 2010,
-        "images" : ["2500.jpg"],
+        "year" : 2009,
+        "images" : ["2500.jpg","4900.jpg"],
         "achievements" : [],
-        "bio": "Initially a back-foot counter-puncher, Ron is now learning to hold his feet and be the aggressor. Ron has excellent fundamentals and will be looking to build on this in his second year."
+        "bio": "Initially known as a skilled back-foot counter-puncher, Ron is evolving his style to become a more confident and effective aggressor in the ring. Built on a foundation of excellent fundamentals, he combines sharp timing with solid technique to capitalize on his opponents' mistakes. Now learning to hold his ground and dictate the pace, Ron is focused on developing greater ring control and offensive presence as he enters his second year. With his dedication and growing confidence, he's poised to make significant strides in his boxing journey."
     },
     {
         "name" : "Elin Chapman",
         "nickname" : "Ellie",
         "fights" : 10,
         "year" : 2011,
-        "images" : ["8400.jpg"],
+        "images" : ["8400.jpg","2100.jpg","4200.jpg"],
         "achievements" : ["National Schools Winner","National Schools Finalist","National Schools Semi-finalist","3 x Eastern Counties Champion","Eastern Counties Best Female Junior 2025"],
-        "bio": "Last year's National Champion Elin is a Southpaw with an aggressive come forward style. If you fight Elin, you'd better be ready to dig in as she never gives you a breath."
+        "bio": "Last year's National Champion, Elin is a fierce Southpaw known for her aggressive, come-forward style. Relentless in the ring, she constantly applies pressure, forcing opponents to fight on her terms and never allowing them a moment to breathe. Combining power, stamina, and tactical awareness, Elin overwhelms with a blend of skill and sheer determination. A true warrior, she continues to push her limits and is a relentless competitor to watch in any bout."
     },
     {
         "name" : "Johnny Purdy",
         "nickname" : "None",
         "fights" : 0,
         "year" : 2012,
-        "images" : ["2400.jpg"],
+        "images" : ["2400.jpg","4700.jpg"],
         "achievements" : [],
-        "bio": "John has an all-action style that provides great fight. One of the busiest fighters at Mid Essex, John is another fighter who is willing to fight any time and any where. Definitely a bright future."
+        "bio": "John brings an all-action style to the ring, delivering exciting and hard-fought battles every time he steps in. As one of the busiest fighters at Mid Essex, his eagerness to take on any challenge—anytime, anywhere—demonstrates his commitment and hunger for experience. Known for his relentless energy and tenacity, John is steadily building a bright future and has all the qualities to make a strong impact in the boxing world."
     },
     {
         "name" : "Stan Brown",
         "nickname" : "None",
         "fights" : 0,
-        "year" : 2010,
-        "images" : ["7800.jpg"],
+        "year" : 2009,
+        "images" : ["7800.jpg","3200.jpg","8100.jpg"],
         "achievements" : ["Eastern Counties Finalist"],
-        "bio": "Technically superb fighter, with great hand speed and punching power. When Stan is at the top of his game, he's a level above most fighters."
+        "bio": "Stan is a technically superb fighter, combining exceptional hand speed with formidable punching power. When fully in top form, his skill level rises well above most opponents, allowing him to dominate the ring with precision and authority. His combination of technique, speed, and strength makes him a consistently dangerous and highly respected competitor. As he continues to refine his abilities, Stan remains a standout talent with the potential to excel at the highest levels."
     },
     {
         "name" : "Ronnie Down",
@@ -78,25 +78,34 @@
         "year" : 2005,
         "images" : ["2800.jpg"],
         "achievements" : [],
-        "bio": "When it comes to both physical and mental toughness, Ron has it in abundance. In tandem with his years of experience, this makes Ron an extremely accomplished fighter."
+        "bio": "Ronnie embodies both physical and mental toughness in abundance, qualities that have been honed over years of dedicated experience in the ring. His resilience and grit allow him to withstand pressure and keep pushing forward, no matter the challenge. Combined with his deep knowledge of the sport, Ronnie is an extremely accomplished fighter whose determination and strength make him a formidable opponent every time he steps inside the ropes."
+    },
+    {
+        "name" : "Oliver Bolton",
+        "nickname" : "None",
+        "fights" : 1,
+        "year" : 2013,
+        "images" : ["2700.jpg","3100.jpg","4800.jpg","5900.jpg"],
+        "achievements" : [],
+        "bio": "Oliver is a highly technical fighter who controls the ring behind a sharp and effective jab. With each fight, he continues to improve, showcasing his growing skill and composure. His impressive and dominant debut hinted at the great potential he possesses, and there's much more to come from this promising young boxer as he sharpens his craft and gains experience."
     },
     {
         "name" : "Logan Grover",
         "nickname" : "None",
         "fights" : 0,
         "year" : 2014,
-        "images" : ["3400.jpg"],
+        "images" : ["3400.jpg","5800.jpg","6000.jpg","6500.jpg"],
         "achievements" : [],
-        "bio": "Logan is another extremely tough fighter, who is goiing through the process of honing his boxing skills. He has courage in abundance and rarely takes a backward step."
+        "bio": "Logan is an exceptionally tough fighter who is steadily honing his boxing skills with dedication and hard work. Possessing courage in abundance, he faces every challenge head-on and rarely takes a backward step in the ring. As he continues to develop his technique and ringcraft, Logan's fearless attitude and resilience mark him as a fighter with a bright and promising future."
     },
     {
         "name" : "Jenson Lockwood",
         "nickname" : "None",
         "fights" : 0,
-        "year" : 2014,
-        "images" : ["8200.jpg"],
+        "year" : 2013,
+        "images" : ["8200.jpg","3500.jpg","7300.jpg","7700.jpg","8200.jpg"],
         "achievements" : [],
-        "bio": "A classic style fighter with excellent fundamentals, Jenson's technical skills are up there with the best. He has gained a lot of experience this year and will be looking to build on a strong start to his amateur career."
+        "bio": "Jenson is a classic-style fighter, built on a foundation of excellent fundamentals and polished technical skills that rank among the best. Over the past year, he has gained valuable experience in the ring, steadily building confidence and sharpening his craft. With a strong start to his amateur career behind him, Jenson is focused on continuing his development and making an even greater impact in future bouts."
     },
     {
         "name" : "Bayley Coppin",
@@ -105,16 +114,16 @@
         "year" : 2006,
         "images" : ["1300.jpg"],
         "achievements" : [],
-        "bio": "A busy year has seen Bayley make dramatic improvements. Initially good at range, Bayley has learnt to deal with pressure fights and dictate fights. His right hand is as good as anybodys. One of the hardest trainers at the club."
+        "bio": "Bayley has made dramatic improvements over a busy and eventful year. Initially strong at range, he has developed the ability to handle pressure fights with confidence and take control of the ring. Armed with a right hand that is as powerful and accurate as any in the club, Bayley combines skill with determination. Known for his relentless work ethic, he is also one of the hardest trainers at Mid Essex, pushing himself and others to excel."
     },
     {
         "name" : "Tom Charnock",
         "nickname" : "None",
         "fights" : 2,
         "year" : 1999,
-        "images" : ["2000.jpg"],
+        "images" : ["2000.jpg","5100.jpg"],
         "achievements" : [],
-        "bio": "Tom has started fighting this year and is learning to take advantage of his southpaw style. Despite a realtive lack of experience, Tom has looked really accomplished in his first bouts. We look forward to a strong year coming up."
+        "bio": "Tom began his fighting journey this year and is quickly learning to leverage his southpaw stance to great effect. Despite his relative inexperience, he has already shown impressive composure and skill in his initial bouts, displaying a natural aptitude that belies his time in the ring. With a strong foundation and ongoing development, Tom is poised for a promising and successful year ahead."
     },
     {
         "name" : "Tom Clarke",
@@ -123,7 +132,7 @@
         "year" : 1999,
         "images" : ["3600.jpg"],
         "achievements" : [],
-        "bio": "Don't be fooled by the lack of bouts. Tome os an experienced amateur who has been around boxing for a number of years. A superb technical fighter, who analyses and then dismantles his opponents. Could be as good as he chooses to be."
+        "bio": "Don't be fooled by the limited number of bouts—Tom is a seasoned amateur with years of experience in the boxing world. A superbly technical fighter, he combines keen analytical skills with precise execution, carefully studying and methodically dismantling his opponents. With his talent and dedication, Tom has the potential to reach any level he sets his sights on, making him a formidable and intelligent presence in the ring."
     },
     {
         "name" : "Zach Brett",
@@ -132,7 +141,7 @@
         "year" : 2011,
         "images" : ["3700.jpg"],
         "achievements" : [],
-        "bio": "One of the latest boxers to join the club, Zach has quickly had a number of skills bouts and proven extremely competent. Never phased by the action, he looks like he has a bright future in amateur boxing. We look forward to his first bout."
+        "bio": "One of the newest additions to the club, Zach has quickly accumulated several skills bouts, demonstrating impressive composure and competence. Unfazed by the intensity of the action, he approaches each challenge with confidence and determination. With his steady progress and evident potential, Zach looks set for a bright future in amateur boxing. We eagerly anticipate his first competitive bout."
     },
     {
         "name" : "Matthew Kerr",
@@ -141,16 +150,16 @@
         "year" : 2007,
         "images" : ["3800.jpg"],
         "achievements" : [],
-        "bio": "Slick southpaw with top-class technical ability."
+        "bio": "Matthew is a slick southpaw renowned for his top-class technical ability. His fluid style and sharp technique allow him to control the ring with precision and finesse. Combining excellent footwork, timing, and a keen tactical mind, Matthew consistently outsmarts and outmaneuvers his opponents. As he continues to refine his skills, he stands out as a talented and sophisticated boxer with great potential."
     },
     {
         "name" : "Shae Barry",
         "nickname" : "None",
         "fights" : 0,
         "year" : 2005,
-        "images" : ["3900.jpg"],
+        "images" : ["3900.jpg","1700.jpg","1800.jpg","4300.jpg"],
         "achievements" : [],
-        "bio": "When watching Shae it only takes seconds to know you are watchiing a very accmplished fighter. Almost impossible to hit both inside and out, Shae really packs a punch. When he's dedicated to training, he's as good as there is."
+        "bio": "From the moment Shae steps into the ring, it's clear you're watching a highly accomplished fighter. Nearly impossible to hit both inside and out, he combines elusive defense with powerful, well-timed punches that can change the course of any fight. Shae's natural talent is undeniable, and when fully dedicated to training, he performs at the very top of his game, making him one of the most formidable competitors around."
     },
     {
         "name" : "Maddie Taylor",
@@ -159,6 +168,6 @@
         "year" : 2013,
         "images" : ["4100.jpg"],
         "achievements" : [],
-        "bio": "Mid Essex's pocket rocked, Maddie is currently starting to have skills bouts. Don't let her size fool you, as Maddie is as brave as they come. Still learning, but it looks like there will be a big year on the horizoon."
+        "bio": "Mid Essex's “pocket rocket,” Maddie is just beginning her journey with skills bouts but already shows a fearless spirit that defies her size. Brave and determined, she faces every challenge head-on and demonstrates a hunger to learn and improve. With her courage and drive, Maddie looks set for a breakthrough year ahead as she continues to develop her boxing skills and find her place in the ring"
     }
 ]
