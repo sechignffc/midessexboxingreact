@@ -17,13 +17,13 @@ export default function homepage() {
         </p>
         <div className="index_logo">
           <img
-            src={"${process.env.PUBLIC_URL}/images/Mid-Essex_3D.jpg"}
+            src={`${process.env.PUBLIC_URL}/images/Mid-Essex_3D.jpg`}
             alt="Mid Essex Logo"
           />
         </div>
         <video controls autoPlay loop muted>
           <source
-            src={"${process.env.PUBLIC_URL}/training_video.mp4"}
+            src={`${process.env.PUBLIC_URL}/training_video.mp4`}
             type="video/mp4"
           />
         </video>
