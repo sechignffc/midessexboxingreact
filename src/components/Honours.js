@@ -4,7 +4,7 @@ import React from "react";
 export default function Honours() {
   const achievements = [
     {
-      img: "./images/england_boxing.jpg",
+      img: `${process.env.PUBLIC_URL}/images/england_boxing.jpg`,
       alt: "England Boxing",
       title: "England Boxing National Championships",
       results: [
@@ -25,7 +25,7 @@ export default function Honours() {
       ],
     },
     {
-      img: "./images/NABGC.png",
+      img: `${process.env.PUBLIC_URL}/images/NABGC.png`,
       alt: "National Boys and Girls Clubs",
       title: "NABGC National Championships",
       results: [
@@ -41,7 +41,7 @@ export default function Honours() {
       ],
     },
     {
-      img: "./images/eastern-counties.jpg",
+      img: `${process.env.PUBLIC_URL}/images/eastern-counties.jpg`,
       alt: "Eastern Counties Boxing",
       title: "Eastern Counties Championships",
       results: [
@@ -53,7 +53,7 @@ export default function Honours() {
       ],
     },
     {
-      img: "./images/box_cups.png",
+      img: `${process.env.PUBLIC_URL}/images/box_cups.png`,
       alt: "Box Cups",
       title: "Box Cups",
       results: [

@@ -11,7 +11,7 @@ const GalleryGrid = () => {
         {imageData.map((item, idx) => (
           <div key={idx} className="gallery-card">
             <img
-              src={`/images/${item}`}
+              src={`${process.env.PUBLIC_URL}/images/${item}`}
               alt={"Mid Essex Boxing"}
               style={{
                 width: "100%",
@@ -20,7 +20,9 @@ const GalleryGrid = () => {
                 borderRadius: "6px",
                 cursor: "pointer",
               }}
-              onClick={() => setSelectedImg(`/images/${item}`)}
+              onClick={() =>
+                setSelectedImg(`${process.env.PUBLIC_URL}/images/${item}`)
+              }
             />
           </div>
         ))}

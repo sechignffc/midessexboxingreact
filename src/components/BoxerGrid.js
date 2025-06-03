@@ -11,7 +11,7 @@ const BoxerGrid = () => (
       {boxerData.map((item, idx) => (
         <div key={idx} className="boxer-thumb">
           <img
-            src={`/images/${item.images[0]}`}
+            src={`${process.env.PUBLIC_URL}/images/${item.images[0]}`}
             alt={item.headline}
             style={{
               width: "100%",

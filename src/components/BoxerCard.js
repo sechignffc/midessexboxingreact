@@ -92,7 +92,7 @@ const BoxerCard = () => {
         {/* Faint blurry background image aligned to bottom */}
         <div
           style={{
-            backgroundImage: `url(/images/${images[imgIdx]})`,
+            backgroundImage: `url(${process.env.PUBLIC_URL}/images/${images[imgIdx]})`,
             position: "absolute",
             top: 0,
             left: 0,
@@ -127,7 +127,7 @@ const BoxerCard = () => {
         >
           <div style={{ position: "relative", marginTop: "2em" }}>
             <img
-              src={`/images/${images[imgIdx]}`}
+              src={`${process.env.PUBLIC_URL}/images/${images[imgIdx]}`}
               alt={item.name}
               style={{
                 width: "70%",
