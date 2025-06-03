@@ -9,7 +9,7 @@ const NewsGrid = () => (
     {newsData.map((item, idx) => (
       <div key={idx} className="news-card">
         <img
-          src={`/images/${item.image}`}
+          src={`${process.env.PUBLIC_URL}/images/${item.image}`}
           alt={item.headline}
           style={{
             width: "100%",

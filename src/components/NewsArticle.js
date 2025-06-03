@@ -14,7 +14,7 @@ const NewsArticle = () => {
       style={{ maxWidth: 600, margin: "0 auto", padding: "2rem" }}
     >
       <img
-        src={`/images/${item.image}`}
+        src={`${process.env.PUBLIC_URL}/images/${item.image}`}
         alt={item.headline}
         style={{
           width: "100%",
