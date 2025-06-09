@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./style.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -13,13 +13,31 @@ import EventGrid from "./components/Events";
 import Honours from "./components/Honours";
 import { Routes, Route, Link } from "react-router-dom";
 import Info from "./components/Info";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+
+  useEffect(() => {
+    if (!menuOpen) return;
+    const handleClickOutside = (event) => {
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(event.target) &&
+        !event.target.classList.contains("menu")
+      ) {
+        setMenuOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [menuOpen]);
 
   return (
     <div className="App">
       <div className="container">
+        <ScrollToTop />
         <Header />
 
         {/* Mobile Menu Button */}
@@ -34,7 +52,7 @@ function App() {
         </div>
 
         {/* Navigation */}
-        <nav className={menuOpen ? "nav nav-mobile-open" : "nav"}>
+        <nav ref={menuRef} className={menuOpen ? "nav nav-mobile-open" : "nav"}>
           <ul className="mainmenu-list">
             <li>
               <Link to="/" onClick={() => setMenuOpen(false)}>

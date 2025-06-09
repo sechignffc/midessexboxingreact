@@ -85,8 +85,8 @@ const BoxerCard = () => {
           borderRadius: "1.2em",
           boxShadow: "0 4px 24px rgba(0,0,0,0.07)",
           background: "#fff",
-          maxWidth: 600,
-          margin: "2em auto",
+          //maxWidth: 600,
+          //margin: "2em auto",
         }}
       >
         {/* Faint blurry background image aligned to bottom */}
@@ -130,11 +130,12 @@ const BoxerCard = () => {
               src={`${process.env.PUBLIC_URL}/images/${images[imgIdx]}`}
               alt={item.name}
               style={{
-                width: "70%",
+                width: "100%",
                 display: "block",
-                margin: "0 auto",
-                maxHeight: 500,
+                margin: "0",
+                //maxHeight: 500,
                 objectFit: "cover",
+                objectPosition: "top",
                 borderRadius: 12,
                 boxShadow: "0 4px 16px rgba(0,0,0,0.11)",
                 background: "#fff",
