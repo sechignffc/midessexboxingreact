@@ -11,13 +11,26 @@ import BoxerGrid from "./components/BoxerGrid";
 import BoxerCard from "./components/BoxerCard";
 import EventGrid from "./components/Events";
 import Honours from "./components/Honours";
-import { Routes, Route, Link } from "react-router-dom";
+import {
+  Routes,
+  Route,
+  Link,
+  useLocation,
+  useNavigate,
+} from "react-router-dom";
 import Info from "./components/Info";
 import ScrollToTop from "./components/ScrollToTop";
-import useRedirect from "./Hooks/useRedirect";
 
 function App() {
-  useRedirect();
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  // Manual hash-to-path redirect for GitHub Pages SPA support
+  if (location.hash && location.hash !== "#") {
+    const path = location.hash.replace("#", "");
+    navigate(path, { replace: true });
+    return null; // You can use a loading spinner here if you want
+  }
 
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
@@ -50,7 +63,6 @@ function App() {
           onClick={() => setMenuOpen((open) => !open)}
           aria-label="Open main menu"
         >
-          {/* You can use a hamburger icon here, e.g. &#9776; */}
           &#9776;
         </div>
 
