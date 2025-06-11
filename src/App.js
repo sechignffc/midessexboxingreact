@@ -14,6 +14,7 @@ import Honours from "./components/Honours";
 import { Routes, Route, Link } from "react-router-dom";
 import Info from "./components/Info";
 import ScrollToTop from "./components/ScrollToTop";
+import useRedirect from "./Hooks/useRedirect";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -33,6 +34,8 @@ function App() {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [menuOpen]);
+
+  useRedirect();
 
   return (
     <div className="App">
