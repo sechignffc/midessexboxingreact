@@ -17,6 +17,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import useRedirect from "./Hooks/useRedirect";
 
 function App() {
+  useRedirect();
+
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -34,8 +36,6 @@ function App() {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [menuOpen]);
-
-  useRedirect();
 
   return (
     <div className="App">
