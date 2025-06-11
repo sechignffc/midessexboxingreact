@@ -25,16 +25,11 @@ function App() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  // Manual hash-to-path redirect for GitHub Pages SPA support
-  if (location.hash && location.hash !== "#") {
-    const path = location.hash.replace("#", "");
-    navigate(path, { replace: true });
-    return null; // You can use a loading spinner here if you want
-  }
-
+  // MENU STATE AND REF
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
 
+  // HANDLE OUTSIDE CLICK FOR MENU
   useEffect(() => {
     if (!menuOpen) return;
     const handleClickOutside = (event) => {
@@ -49,6 +44,19 @@ function App() {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [menuOpen]);
+
+  // HANDLE GITHUB PAGES HASH REDIRECT
+  useEffect(() => {
+    if (location.hash && location.hash !== "#") {
+      const path = location.hash.replace("#", "");
+      navigate(path, { replace: true });
+    }
+  }, [location, navigate]);
+
+  // PREVENT FLASH OF HOMEPAGE: IF HASH EXISTS AND NO PATHNAME YET, RETURN NULL
+  if (location.hash && location.hash !== "#" && location.pathname === "/") {
+    return null;
+  }
 
   return (
     <div className="App">
