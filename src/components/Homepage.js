@@ -4,6 +4,7 @@ import "../style.css";
 export default function homepage() {
   return (
     <div className="main">
+      <h1>Boxing Club in Chelmsford - Mid Essex Boxing Academy</h1>
       <article>
         <p>
           Welcome to Mid Essex Boxing Academy, where champions are built one

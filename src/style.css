@@ -194,6 +194,12 @@ nav {
     color:white;
 }
 
+.main h1 {   
+    color: goldenrod;
+    font-size: 1.7em;
+    margin-bottom: 0;
+}
+
 .main .index_logo img{
     float:left;
     padding: 0px;
