@@ -130,10 +130,8 @@ const BoxerCard = () => {
               src={`${process.env.PUBLIC_URL}/images/${images[imgIdx]}`}
               alt={item.name}
               style={{
-                width: "100%",
                 display: "block",
-                margin: "0",
-                //maxHeight: 500,
+                margin: "0 auto", // This centers it even if just using inline!
                 objectFit: "cover",
                 objectPosition: "top",
                 borderRadius: 12,
