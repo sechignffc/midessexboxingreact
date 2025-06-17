@@ -45,7 +45,18 @@ export default function Honours() {
       alt: "Eastern Counties Boxing",
       title: "Eastern Counties Championships",
       results: [
-        { text: "1 x Eastern Counties Champion", names: "TJ Jarvis-Brown" },
+        {
+          text: "4 x Eastern Counties Champion",
+          names: "Manny Mohamed",
+        },
+        {
+          text: "2 x Eastern Counties Champion",
+          names: "Junior Gullam, Megan King",
+        },
+        {
+          text: "1 x Eastern Counties Champion",
+          names: "TJ Jarvis-Brown, Sophia Sanchez",
+        },
         {
           text: "3 x Eastern Counties Finalists",
           names: "Tamuno Bamson, Stanley Brown, Luca Sechi",

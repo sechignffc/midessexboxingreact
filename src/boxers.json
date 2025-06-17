@@ -29,7 +29,7 @@
     {
         "name" : "Radley Brown",
         "nickname" : "Bomber",
-        "fights" : 0,
+        "fights" : 10,
         "year" : 2006,
         "images" : ["2900.jpg","1600.jpg","2200.jpg","7900.jpg"],
         "achievements" : [],
@@ -38,7 +38,7 @@
     {
         "name" : "Ron Norman",
         "nickname" : "Ronnie",
-        "fights" : 0,
+        "fights" : 3,
         "year" : 2009,
         "images" : ["2500.jpg","4900.jpg"],
         "achievements" : [],

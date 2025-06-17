@@ -71,7 +71,7 @@ function App() {
           onClick={() => setMenuOpen((open) => !open)}
           aria-label="Open main menu"
         >
-          &#9776;
+          &#9776; Menu
         </div>
 
         {/* Navigation */}
