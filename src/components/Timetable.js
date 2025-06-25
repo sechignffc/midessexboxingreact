@@ -16,41 +16,41 @@ export default function timetable() {
         <tbody>
           <tr>
             <td>Monday</td>
-            <td colspan="2">Closed</td>
+            <td>17:30 - 18:30</td>
+            <td>Beginners</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>18:30 - 19:30</td>
+            <td>Juniors</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>19:15 - 20:45</td>
+            <td>Seniors</td>
           </tr>
           <tr>
             <td>Tuesday</td>
-            <td>17:30 - 18:30</td>
-            <td>Beginners</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>18:15 - 19:20</td>
-            <td>Juniors</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>19:20 - 20:45</td>
-            <td>Senior Carded</td>
-          </tr>
-          <tr>
-            <td>Wednesday</td>
             <td colspan="2">Closed</td>
           </tr>
           <tr>
-            <td>Thursday</td>
+            <td>Wednesday</td>
             <td>17:30 - 18:30</td>
             <td>Beginners</td>
           </tr>
           <tr>
             <td></td>
-            <td>18:15 - 19:20</td>
+            <td>18:30 - 19:30</td>
             <td>Juniors</td>
           </tr>
           <tr>
             <td></td>
-            <td>19:20 - 20:45</td>
-            <td>Senior Carded</td>
+            <td>19:15 - 20:45</td>
+            <td>Seniors</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td colspan="2">Closed</td>
           </tr>
           <tr>
             <td>Friday</td>
