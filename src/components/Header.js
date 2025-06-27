@@ -7,7 +7,7 @@ export default function Header() {
       <div className="mainheading">
         <div className="logo">
           <img
-            src="./images/Mid-Essex_Tiger1.jpg"
+            src="./images/Mid-Essex_New.png"
             alt="Mid Essex Boxing Academy Logo"
           />
         </div>
