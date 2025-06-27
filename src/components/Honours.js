@@ -55,7 +55,8 @@ export default function Honours() {
         },
         {
           text: "1 x Eastern Counties Champion",
-          names: "TJ Jarvis-Brown, Sophia Sanchez",
+          names:
+            "TJ Jarvis-Brown, Sophia Sanchez, Tommy Pemberton, Elin Chapman",
         },
         {
           text: "3 x Eastern Counties Finalists",
